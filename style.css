@@ -1,19 +1,38 @@
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   max-width: 800px;
   margin: auto;
-  line-height: 1.6;
+  line-height: 1.4;
+  font-size: 14px;
 }
 
 h1 {
   border-bottom: 2px solid black;
+  margin-bottom: 5px;
 }
 
 h2 {
   border-bottom: 1px solid #ccc;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
 }
 
 p, li {
-  color: #333;
+  color: #222;
+  margin: 4px 0;
+}
+
+ul {
+  padding-left: 18px;
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
 }
