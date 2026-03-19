@@ -16,8 +16,31 @@ h1 {
 
 .top {
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4px 6px;
+}
+
+.contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icon {
+  width: 13px;
+  height: 13px;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.sep {
+  color: #555;
+  font-size: 12px;
 }
 
 h2 {
